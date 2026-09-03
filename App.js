@@ -2,7 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {Ionicons} from "@expo/vector-icons";
-
+import {SafeAreaProvider} from 'react-native-safe-area-context'
 import DashboardScreen from './screens/DashboardScreen';
 import SettingsScreen from './screens/SettingsScreen';
 import DevicesScreen from './screens/DevicesScreen';
