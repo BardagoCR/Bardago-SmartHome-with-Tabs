@@ -11,6 +11,7 @@ const Tab = createBottomTabNavigator();
 
 export default function App() {
   return (
+    <SafeAreaProvider>
     <NavigationContainer>
       <Tab.Navigator
         screenOptions={{
@@ -51,5 +52,6 @@ export default function App() {
         />
       </Tab.Navigator>
     </NavigationContainer>
+            </SafeAreaProvider>
   );
 }
