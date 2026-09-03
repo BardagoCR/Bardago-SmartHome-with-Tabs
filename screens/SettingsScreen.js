@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, Switch, SafeAreaView } from 'react-native';
-
+import { View, Text, StyleSheet, Switch } from 'react-native';
+import {SafeAreaView} from 'react-native-safe-area-context';
 export default function SettingsScreen() {
   const [notifications, setNotifications] = useState(false);
 
