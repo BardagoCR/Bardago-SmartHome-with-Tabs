@@ -1,6 +1,6 @@
 import React from 'react';
-import { View, Text, StyleSheet, FlatList, SafeAreaView } from 'react-native';
-
+import { View, Text, StyleSheet, FlatList } from 'react-native';
+import {SafeAreaView} from 'react-native-safe-area-context';
 const DEVICES = [
   { id: '1', name: 'Light', room: 'Living Room', status: 'ON' },
   { id: '2', name: 'Air Conditioner', room: 'Living Room', status: '24°C' },
