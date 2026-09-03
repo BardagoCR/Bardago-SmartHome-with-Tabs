@@ -23,6 +23,7 @@ export default function App() {
           name="Dashboard"
           component={DashboardScreen}
           options={{
+            headerShown: false,
           tabBarIcon:({color,size}) => (
           <Ionicons name= "thermometer-outline" color={color} size={size}/>
           )
@@ -32,6 +33,7 @@ export default function App() {
           name="Settings"
           component={SettingsScreen}
           options={{ 
+            headerShown: false,
              tabBarIcon:({color,size}) => (
           <Ionicons name= "settings-outline" color={color} size={size}/>
           )
@@ -41,6 +43,7 @@ export default function App() {
           name="Devices"
           component={DevicesScreen}
           options={{  
+            headerShown: false,
             tabBarIcon:({color,size}) => (
           <Ionicons name= "phone-portrait-outline" color={color} size={size}/>
           ) 
